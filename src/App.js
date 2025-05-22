@@ -7,6 +7,7 @@ import Hero from './Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import PortalDemo from './components/PortalDemo';
 
 
 class App extends Component {
@@ -14,8 +15,7 @@ class App extends Component {
   render(){
     return (
     	<div className="App">
-			<ClickCounter name='Neha'/>
-			<HoverCounter/>
+        <PortalDemo />
      	</div>
     );
   }
