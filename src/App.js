@@ -12,6 +12,8 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import CounterRenderProps from './components/CounterRenderProps';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 
 class App extends Component {
@@ -19,8 +21,10 @@ class App extends Component {
   render(){
     return (
     	<div className="App">
-        <CounterRenderProps render={(count, incrementCount) => (<ClickCounterTwo count={count} incrementCount={incrementCount} /> )} />
-        <CounterRenderProps render={(count, incrementCount) => (<HoverCounterTwo count={count} incrementCount={incrementCount} /> )} />
+        <UserProvider value="Neha">
+          <ComponentC />
+        </UserProvider>
+      
      	</div>
     );
   }
