@@ -14,6 +14,10 @@ import User from './components/User';
 import CounterRenderProps from './components/CounterRenderProps';
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 
 class App extends Component {
@@ -21,10 +25,7 @@ class App extends Component {
   render(){
     return (
     	<div className="App">
-        <UserProvider value="Neha">
-          <ComponentC />
-        </UserProvider>
-      
+        <HookCounterFour/>
      	</div>
     );
   }
