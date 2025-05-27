@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, useContext } from 'react'
 import { UserConsumer } from './userContext'
+import { UserContext, ChannelContext } from '../App'
 
 class ComponentF extends Component {
   render() {
