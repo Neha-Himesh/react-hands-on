@@ -7,4 +7,4 @@ function ComponentCFunc() {
   )
 }
 
-export default ComponentCFunc
+export default ComponentCFunc 
