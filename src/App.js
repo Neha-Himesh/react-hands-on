@@ -1,12 +1,19 @@
 
 import React from 'react'
-import ParentComponentUseCallback from './components/ParentComponentUseCallback'
+import FocusInputUseRef from './components/FocusInputUseRef';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
+import CounterOneCustomHook2 from './components/CounterOneCustomHook2';
+import CounterTwoCustomHook2 from './components/CounterTwoCustomHook2';
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComponentUseCallback />
+      <CounterOneCustomHook2 />
+      <CounterTwoCustomHook2 />
     </div>
   )
 }
