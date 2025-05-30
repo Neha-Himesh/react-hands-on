@@ -1,19 +1,12 @@
 
 import React from 'react'
-import FocusInputUseRef from './components/FocusInputUseRef';
-import ClassTimer from './components/ClassTimer';
-import HookTimer from './components/HookTimer';
-import DocTitleOne from './components/DocTitleOne';
-import DocTitleTwo from './components/DocTitleTwo';
-import CounterOneCustomHook2 from './components/CounterOneCustomHook2';
-import CounterTwoCustomHook2 from './components/CounterTwoCustomHook2';
+import UserFormCustomHook3 from './components/UserFormCustomHook3';
 
 
 function App() {
   return (
     <div className="App">
-      <CounterOneCustomHook2 />
-      <CounterTwoCustomHook2 />
+     <UserFormCustomHook3 />
     </div>
   )
 }
